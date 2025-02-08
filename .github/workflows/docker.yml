@@ -31,7 +31,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: yvinc/dockerfile-practice # change to your image
+          images: yvinc/dsci310-ia3-yvinc-docker # change to your image
           tags: |
             type=raw, value={{sha}},enable=${{github.ref_type != 'tag' }}
             type=raw, value=latest
