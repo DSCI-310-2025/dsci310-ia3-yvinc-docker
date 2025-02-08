@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - .github/workflows/docker.yml
       - 'Dockerfile'
       - 'conda-linux-64.lock'
 
